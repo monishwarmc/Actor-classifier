@@ -8,6 +8,10 @@ This project identifies Tamil film actors from images using transfer learning on
 
 The model was trained on a custom dataset containing images of 13 popular Tamil actors and actresses.
 
+## Dataset
+
+You can find the dataset for this project [here](https://www.kaggle.com/datasets/monishwarmc/southindianactorsimages)
+
 ## Classes
 
 - Ajith Kumar
@@ -72,8 +76,8 @@ Actor classifier/
 Clone the repository:
 
 ```bash
-git clone https://github.com/monishwarmc/actor-classifier.git
-cd actor-classifier
+git clone https://github.com/monishwarmc/Actor-classifier.git
+cd Actor-classifier
 ```
 
 Create a virtual environment:
@@ -136,8 +140,15 @@ Suriya              0.18%
 ### Test Accuracy
 
 ```text
-92.05%
+92.05% with ConvNeXt Base model
 ```
+
+## Confusion Matrix
+
+<p align="center">
+  <img src="results/test_data_confusion_matrix.png" width="45%">
+  <img src="results/train_data_confusion_matrix.png" width="45%">
+</p>
 
 ### Example Predictions
 
