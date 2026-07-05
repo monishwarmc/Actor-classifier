@@ -146,7 +146,7 @@ Suriya              0.18%
 ## Confusion Matrix
 
 <p align="center">
-  <img src="results/test_data_confusion_matrix.png" width="45%">
+  <img src="results/test_data_confusion_matrix.png" width="40%">
   <img src="results/train_data_confusion_matrix.png" width="45%">
 </p>
 
