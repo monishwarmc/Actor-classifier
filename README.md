@@ -146,8 +146,8 @@ Suriya              0.18%
 ## Confusion Matrix
 
 <p align="center">
-  <img src="results/test_data_confusion_matrix.png" width="43%">
-  <img src="results/train_data_confusion_matrix.png" width="45%">
+  <img src="results/test_data_confusion_matrix.png" width="43%" alt=Confusion matrix heatmap showing predicted actor labels versus true labels for 13 Tamil actors and actresses with darker blue cells indicating higher counts>
+  <img src="results/train_data_confusion_matrix.png" width="45%" alt=Training confusion matrix heatmap for 13 Tamil actors and actresses with labels on vertical and horizontal axes and a blue gradient indicating classification accuracy>
 </p>
 
 ### Example Predictions
