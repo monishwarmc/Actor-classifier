@@ -179,7 +179,7 @@ st.write(
     """
     Upload an image of a South Indian actor.\n
     You can also upload your Photo to know which actor you resemble the most.\n
-    This Model is trained only with 'Ajith_Kumar', 'Anushka_Shetty', 'Dhanush', 'Nayanthara', 'Rajinikanth', 'Samantha', 'Simbu', 'Sivakarthikeyan', 'Suriya', 'Tamannah', 'Trisha', 'Vijay' and 'Vijay_Sethupathi'
+    This AI model is trained only with 'Ajith_Kumar', 'Anushka_Shetty', 'Dhanush', 'Nayanthara', 'Rajinikanth', 'Samantha', 'Simbu', 'Sivakarthikeyan', 'Suriya', 'Tamannah', 'Trisha', 'Vijay' and 'Vijay_Sethupathi'
     """
     )
 
