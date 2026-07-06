@@ -38,9 +38,11 @@ CLASSES = [
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 FACE_CASCADE = cv2.CascadeClassifier(
-    cv2.data.haarcascades +
-    "haarcascade_frontalface_default.xml"
+    cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
+
+if FACE_CASCADE.empty():
+    raise RuntimeError("Failed to load Haar Cascade")
 
 # --------------------------------------------------
 # MODEL
