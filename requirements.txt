@@ -10,4 +10,4 @@ tqdm
 tensorboard
 streamlit
 streamlit-cropper
-opencv-python-headless
+opencv-python-headless==4.10.0.84
