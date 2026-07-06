@@ -25,11 +25,12 @@ def main():
             transform=config.TEST_TRANSFORM,
             classes=classes,
             data=DATA_PATH,
+            use_facecrop=True
         )
 
         df = pd.DataFrame(preds)
 
-        print(df)
+        print(df.T)
 
     def num_images():
         path = Path("data")
