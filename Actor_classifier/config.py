@@ -19,7 +19,7 @@ class Config:
         self.TRAIN_TRANSFORM = ConvNeXt_Base_Weights.DEFAULT.transforms()
 
         self.TEST_TRANSFORM = ConvNeXt_Base_Weights.DEFAULT.transforms()
-        self.DATA_DIR = "data"
+        self.DATA_DIR = "cropped_faces"
 
             
 config = Config()
