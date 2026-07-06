@@ -30,6 +30,13 @@ You can find the dataset for this project [here](https://www.kaggle.com/datasets
 
 ## Model
 
+### trained 4 models and ConvNext base performed bast of all
+
+- TinyVGG
+- Resnet 18
+- ConvNeXt Tiny
+- ConvNeXt Base
+
 Architecture:
 
 - ConvNeXt Base
@@ -62,13 +69,10 @@ Actor-classifier/
 │   └── app.py
 │
 ├── data/
-├── data_faces/
+├── cropped_faces/
 ├── testimg/
 ├── models/
 │   └── ConvNextBase.pth
-|   └── ConvNextTiny.pth
-|   └── Resnet18.pth
-|   └── TinyVGG-01.pth
 │
 ├── results/
 │   ├── train_confusion_matrix.png

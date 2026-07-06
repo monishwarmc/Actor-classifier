@@ -11,11 +11,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model Files
-*.pth
-*.pt
-*.onnx
-
 # TensorBoard
 runs/
 
@@ -46,3 +41,8 @@ dist/
 *.tmp
 
 testimg/*
+cropped_faces/
+data/
+testimg/
+
+.dev*
