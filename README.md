@@ -49,25 +49,33 @@ Architecture:
 ## Project Structure
 
 ```text
-Actor classifier/
+Actor-classifier/
+│
+├── Actor classifier/
+│   ├── config.py
+│   ├── dataSetup.py
+│   ├── engine.py
+│   ├── models.py
+│   ├── utils.py
+│   ├── train.py
+│   ├── main.py
+│   └── app.py
 │
 ├── data/
+├── data_faces/
 ├── testimg/
 ├── models/
-│   └── models...
-│
-├── config.py
-├── dataSetup.py
-├── engine.py
-├── models.py
-├── utils.py
-├── train.py
-├── main.py
+│   └── ConvNextBase.pth
+|   └── ConvNextTiny.pth
+|   └── Resnet18.pth
+|   └── TinyVGG-01.pth
 │
 ├── results/
 │   ├── train_confusion_matrix.png
 │   └── test_confusion_matrix.png
 │
+├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
@@ -90,6 +98,7 @@ source venv/bin/activate
 Install dependencies:
 
 ```bash
+cd Actor_classifier
 pip install -r requirements.txt
 ```
 
