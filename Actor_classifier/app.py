@@ -8,6 +8,15 @@ from streamlit_cropper import st_cropper
 
 import models
 from config import config
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_PATH = (
+    BASE_DIR.parent /
+    "models" /
+    "ConvNextBase.pth"
+)
 
 # --------------------------------------------------
 # CONFIG
@@ -58,7 +67,7 @@ def load_model():
 
     model.load_state_dict(
         torch.load(
-            "../models/ConvNextBase.pth",
+            MODEL_PATH,
             map_location=DEVICE
         )
     )
