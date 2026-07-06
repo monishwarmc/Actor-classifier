@@ -98,13 +98,13 @@ source venv/bin/activate
 Install dependencies:
 
 ```bash
-cd Actor_classifier
 pip install -r requirements.txt
 ```
 
 run streamlit app:
 
 ```bash
+cd Actor_classifier
 streamlit run app.py
 ```
 
