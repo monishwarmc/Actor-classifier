@@ -8,6 +8,10 @@ This project identifies Tamil film actors from images using transfer learning on
 
 The model was trained on a custom dataset containing images of 13 popular Tamil actors and actresses.
 
+## Deployment
+
+Deployed in streamlit, you can check [here](https://actor-classifier.streamlit.app/)
+
 ## Dataset
 
 You can find the dataset for this project [here](https://www.kaggle.com/datasets/monishwarmc/southindianactorsimages)
