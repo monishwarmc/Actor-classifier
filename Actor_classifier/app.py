@@ -219,7 +219,7 @@ if uploaded_file:
 
 
     use_manual_crop = st.checkbox(
-        "Manually adjust face crop"
+        "Crop face manually"
     )
 
     if use_manual_crop:
