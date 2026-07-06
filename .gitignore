@@ -45,4 +45,4 @@ dist/
 # Temporary Files
 *.tmp
 
-testimg/
+testimg/*
