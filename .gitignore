@@ -43,4 +43,6 @@ dist/
 .cache/
 
 # Temporary Files
-*.tmptestimg/
+*.tmp
+
+testimg/
