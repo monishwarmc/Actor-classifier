@@ -1,0 +1,14 @@
+torch
+torchvision
+torchmetrics
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow
+tqdm
+tensorboard
+cv2
+streamlit-cropper
+streamlit
+opencv-python-headless
