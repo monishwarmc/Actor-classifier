@@ -96,24 +96,44 @@ git clone https://github.com/monishwarmc/Actor-classifier.git
 cd Actor-classifier
 ```
 
-Create a virtual environment:
+## Docker
+
+Build the Docker image:
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+docker build -t actor-classifier .
 ```
 
-Install dependencies:
+Run the container:
 
 ```bash
-pip install -r requirements.txt
+docker run -p 8501:8501 actor-classifier
 ```
 
-run streamlit app:
+Open in your browser:
 
-```bash
-cd Actor_classifier
-streamlit run app.py
+```text
+http://localhost:8501
+```
+
+The application will start inside a Docker container and serve the Streamlit interface on port 8501.
+
+### Dockerfile
+
+```dockerfile
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "Actor classifier/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
 ```
 
 ## Training
