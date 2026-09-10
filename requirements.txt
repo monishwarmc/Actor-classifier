@@ -1,0 +1,13 @@
+torch
+torchvision
+torchmetrics
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow
+tqdm
+tensorboard
+streamlit
+streamlit-cropper
+opencv-python-headless==4.10.0.84

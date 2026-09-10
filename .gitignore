@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard
+runs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+
+*data*/
+
+
+# Cache
+.cache/
+
+# Temporary Files
+*.tmp
+
+testimg/*
+*cropped_faces*
+data/
+testimg/
+*node_modules*
+.dev*
