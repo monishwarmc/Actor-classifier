@@ -1,4 +1,4 @@
-# Tamil Actor Classification using ConvNeXt Base
+# [Tamil Actor Classification using ConvNeXt Base](https://actor-classifier.streamlit.app/)
 
 A Deep Learning project for classifying Tamil movie actors from images using PyTorch and ConvNeXt Base.
 
